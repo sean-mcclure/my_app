@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
 .wrapper {
     display: grid;
     height: 100vh;
@@ -18,22 +20,25 @@
     width: 18vw;
 }
 
-.item:nth-child(3) {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: stretch;
+.hold_buttons {
+    display: grid;
+    height: 100%;
 }
 
 button {
     width: 18vw;
     height: 40px;
-    margin: 5px;
+    margin-top: 10px;
     border: none;
     border-radius: 3px;
     color: black;
-    background: #ff5252;
+    background: #ff793f;
     font-size: 18px;
+    font-family: Roboto;
     cursor: pointer;
+}
+
+button:hover {
+    background: #f63737;
 }
 

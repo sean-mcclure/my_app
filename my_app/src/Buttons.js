@@ -1,6 +1,6 @@
 function Buttons() {
     return(
-        <div>
+        <div className="hold_buttons">
             <button>ARTICLE 1</button>
             <button>ARTICLE 2</button>
             <button>ARTICLE 3</button>
